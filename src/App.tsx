@@ -8,7 +8,7 @@ import styled, { createGlobalStyle } from "styled-components";
 import reset from "styled-reset";
 import { useEffect, useState } from "react";
 import LoadingScreen from "./routes/loading-screen";
-import { auth } from "./routes/firebase";
+import { auth } from "./firebase";
 
 const router = createBrowserRouter([
   {
