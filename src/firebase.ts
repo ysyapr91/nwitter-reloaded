@@ -1,5 +1,5 @@
 import { initializeApp } from "firebase/app";
-import { getAuth } from "firebase/auth/cordova";
+import { getAuth } from "firebase/auth";
 const firebaseConfig = {
   apiKey: "AIzaSyB7MaMVJgfkqw8ByG8cryLsZPe8NchtPsY",
   authDomain: "testfirebase-1f5b0.firebaseapp.com",
